@@ -1,8 +1,10 @@
-my_string= input('Что вы сегодня делали?: ')
+my_string = input("Введите название Вашего учебного заведения: ".upper())
+print(my_string, "- отличный университет!".lower())
+current_year = 2024
+date_of_birth = input("В каком году вы родились?: ")
+age = current_year - int(date_of_birth)
+print("В этом году Вам: ".replace(' ', ''), age,  "года")
 print(len(my_string))
-print('сегодня я проходила обучение на разработчика'.upper())
-print('СЕГОДНЯ Я ПРОХОДИЛА ОБУЧЕНИЕ НА РАЗРАБОТЧИКА'.lower())
-print('сегодня я проходила обучение на разработчика' .replace(' ', ''))
-my_string= 'сегодня я проходила обучение на разработчика'
 print(my_string[0])
 print(my_string[-1])
+
